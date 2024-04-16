@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import TodoItems from './TodoItems';
-import getTodo from '../utils/getTodo';
 
 export default function TodoList({update, setUpdate, todo}) {
 
