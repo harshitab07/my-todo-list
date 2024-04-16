@@ -14,7 +14,8 @@ const AddTodo = ({setUpdate}) => {
             addTodo({
                 title: title, 
                 description: description,
-                id: Math.random()
+                id: Math.random(),
+                complete: false
             });
         }
         setTitle('');
